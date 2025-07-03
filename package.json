@@ -1,0 +1,22 @@
+{
+  "name": "@propylon/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier config",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "node scripts/generate-npmrc.js",
+    "format": "prettier --write ."
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propylon/prettier-config.git"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

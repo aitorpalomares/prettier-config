@@ -1,0 +1,14 @@
+documentation:
+- changed-files:
+  - any-glob-to-any-file: [
+    '**/*.md',
+    '**/*.mdx'
+  ]
+
+prettier rules 💅:
+- changed-files:
+  - any-glob-to-any-file: ['index.js']
+
+github actions:
+- changed-files:
+  - any-glob-to-any-file: ['.github/**/*']
