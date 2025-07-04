@@ -1,11 +1,10 @@
 {
   "name": "@propylon/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Prettier config",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "preinstall": "node scripts/generate-npmrc.js",
     "format": "prettier --write ."
   },
   "publishConfig": {
